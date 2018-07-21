@@ -9,7 +9,7 @@ Aplicación en SpringBoot para el manejo de llamadas, ejercicio propuesto como p
 5. Unit Test
 6. cobertura del 86%
 7. se limita el numero maximo de threads del servidowe web a 10 como se plantea en el ejercicio
-8. Se crea una prieba de integración para verificar que se permite el llamado concurrente de 10 peticiones (AlmundoCallApplicationTests)
+8. Se crea una prueba de integración para verificar que se permite el llamado concurrente de 10 peticiones (AlmundoCallApplicationTests)
 9. para el caso de que no existan empleados disponibles para atender las llamadas se retorna un codigo de error 404, para indicar al IVR que debe esperar un momento para volver a intentarlo o simplemente indicarle al cliente que lo intente de nuevo en unos minutos
 
 ## Clonar repositorio de GitHub
