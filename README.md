@@ -1,7 +1,7 @@
 # Almundo Call
 Aplicación en SpringBoot para el manejo de llamadas, ejercicio propuesto como prueba técnica
 
-##Aspectos generales de la aplicaión
+## Aspectos generales de la aplicaión
 1. Desarrollado con SpringBoot
 2. Se intento seguir una arquitectura en cebolla
 3. Se usa base de datos MongoDB
@@ -12,11 +12,11 @@ Aplicación en SpringBoot para el manejo de llamadas, ejercicio propuesto como p
 8. Se crea una prieba de integración para verificar que se permite el llamado concurrente de 10 peticiones (AlmundoCallApplicationTests)
 9. para el caso de que no existan empleados disponibles para atender las llamadas se retorna un codigo de error 404, para indicar al IVR que debe esperar un momento para volver a intentarlo o simplemente indicarle al cliente que lo intente de nuevo en unos minutos
 
-##Clonar repositorio de GitHub
+## Clonar repositorio de GitHub
 ```json
 git clone https://github.com/hectormao/almundoCall
 ```
-##Construir el proyecto
+## Construir el proyecto
 1. limpiar el proyecto
 ```bash
 mvn clean
@@ -42,7 +42,7 @@ mvn package
 
 ## Endpoints
 El proyecto expone un api rest con 2 metodos 
-###Iniciar una llamada
+### Iniciar una llamada
 /call/start
 ```bash
 curl -X GET \
@@ -83,7 +83,7 @@ curl -X GET \
     "path": "/call/start"
 }
 ```
-###Finalizar una llamada
+### Finalizar una llamada
 /call/finish/{callId}
 ```bash
 curl -X GET \
